@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.card
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 0;
+}
+
+.card-title
+{
+    margin: 8px;
+}
+
+.card-img
+{
+    border-radius: 5px;
+    transition: 200ms transform ease-in-out;
+}
+
+.img_1
+{
+    height: 10rem;
+    width: 24rem;
+    background-position: center;
+    background-size: cover;
+    margin: 10px 1px;
+    background-image: url("/assets/img_1.jpg");
+    
+}
+
+.img_2
+{
+    height: 10rem;
+    width: 24rem;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 1px;
+    background-image: url("/assets/img_2.jpg");
+}
+
+
+.img_3
+{
+    height: 10rem;
+    width: 24rem;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 1px;
+    background-image: url("/assets/img_3.jpg");
+}
+
+.img_4
+{
+    height: 10rem;
+    width: 24rem;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 1px;
+    background-image: url("/assets/img_4.jpg");
+}
+.card-info
+{
+    margin: 10px 1px;
+    padding: 7px ;
+}
+
+.details-btn 
+{
+    padding: 10px 40px;
+    background-color: hsl(0, 49%, 29%, 80%);
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.details-btn:hover
+{
+    background-color: hsla(0, 70%, 59%, 0.8);
+    color: black;
+}
+
+.contact-btn 
+{
+    padding: 10px 40px;
+    background-color: hsla(194, 68%, 28%, 0.8);
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-btn:hover
+{
+    background-color: hsla(194, 45%, 53%, 0.8);
+    color: black;
+}
+
+.card, .card-img:hover
+{
+    transform: scale(1.025);
+    cursor: pointer;
+}
